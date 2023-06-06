@@ -1,7 +1,7 @@
 {
   "name": "three.js-typescript-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "This boilerplate is supplementary to my book titled **Three.js and TypeScript** (ASIN : B09GYTKRCH)",
   "scripts": {
     "build": "webpack --config ./src/client/webpack.prod.js",
     "dev": "webpack serve --config ./src/client/webpack.dev.js",
@@ -25,5 +25,20 @@
   },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sean-Bradley/Three.js-TypeScript-Boilerplate#readme",
+  "optionalDependencies": {
+    "fsevents": "*"
   }
 }
